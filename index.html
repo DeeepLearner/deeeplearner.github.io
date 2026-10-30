@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Developer & Techno-Functional Specialist</title>
+  <title>Deepak Kumar | Salesforce Marketing Cloud Developer</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -12,8 +12,9 @@
         extend: {
           colors: {
             brand: {
-              500: '#38bdf8',
-              600: '#0284c7',
+              400: '#38bdf8',
+              500: '#0284c7',
+              600: '#0369a1',
             }
           }
         }
@@ -23,96 +24,175 @@
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-sky-500 selection:text-white">
 
-  <!-- Navigation -->
-  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/85 border-b border-slate-800/80">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="#" class="font-bold text-lg tracking-tight text-white hover:text-sky-400 transition">
-        Dev<span class="text-sky-400">.Portfolio</span>
+        Deepak<span class="text-sky-400">.Kumar</span>
       </a>
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-400">
         <a href="#about" class="hover:text-white transition">About</a>
         <a href="#skills" class="hover:text-white transition">Skills</a>
+        <a href="#experience" class="hover:text-white transition">Experience</a>
         <a href="#projects" class="hover:text-white transition">Projects</a>
         <a href="#contact" class="hover:text-white transition">Contact</a>
       </nav>
       <a href="#contact" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider rounded-lg bg-sky-500 text-slate-950 hover:bg-sky-400 transition shadow-sm">
-        Get In Touch
+        Hire Me
       </a>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="max-w-6xl mx-auto px-6 py-24 md:py-32 flex flex-col items-start gap-6 border-b border-slate-900">
-    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-sky-950/80 text-sky-400 border border-sky-800/50">
-      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-      Available for Developer & Technical Roles
+  <section id="about" class="max-w-6xl mx-auto px-6 py-20 md:py-28 flex flex-col-reverse md:flex-row items-center justify-between gap-12 border-b border-slate-900">
+    <div class="flex-1 flex flex-col items-start gap-5">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-sky-950/80 text-sky-400 border border-sky-800/50">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Available for SFMC Developer & Consultant Roles
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+        Hi, I'm Deepak Kumar <br />
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-teal-300 to-indigo-400">
+          Salesforce Marketing Cloud Developer
+        </span>
+      </h1>
+      <p class="text-base text-slate-400 max-w-2xl leading-relaxed">
+        Result-oriented SFMC Developer with 5+ years of experience architecting end-to-end data-driven marketing automation, complex dynamic scripting (AMPScript & SSJS), relational Data Extension models, and high-deliverability lifecycle journeys.
+      </p>
+      <div class="flex flex-wrap items-center gap-4 pt-2">
+        <a href="mailto:dkumar78657@gmail.com" class="px-6 py-3 rounded-lg bg-sky-500 text-slate-950 font-semibold text-sm hover:bg-sky-400 transition shadow-lg shadow-sky-500/10">
+          Get in Touch
+        </a>
+        <a href="https://github.com/DeeepLearner" target="_blank" class="px-6 py-3 rounded-lg border border-slate-800 hover:border-slate-700 bg-slate-900/60 text-slate-300 font-semibold text-sm hover:text-white transition">
+          GitHub Profile
+        </a>
+        <a href="https://linkedin.com/in/deeplearner00101" target="_blank" class="px-6 py-3 rounded-lg border border-slate-800 hover:border-slate-700 bg-slate-900/60 text-slate-300 font-semibold text-sm hover:text-white transition">
+          LinkedIn
+        </a>
+      </div>
     </div>
-    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white max-w-3xl leading-tight">
-      Architecting Scalable Data Flows & <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-400">Automated Solutions.</span>
-    </h1>
-    <p class="text-base sm:text-lg text-slate-400 max-w-2xl leading-relaxed">
-      Techno-functional developer with 5+ years of experience bridging deep data logic, API integrations, and robust automated workflows. Focused on clean code, performance optimization, and reliable system architecture.
-    </p>
-    <div class="flex flex-wrap items-center gap-4 pt-4">
-      <a href="#projects" class="px-6 py-3 rounded-lg bg-sky-500 text-slate-950 font-semibold text-sm hover:bg-sky-400 transition shadow-lg shadow-sky-500/10">
-        View Projects
-      </a>
-      <a href="#contact" class="px-6 py-3 rounded-lg border border-slate-800 hover:border-slate-700 bg-slate-900/60 text-slate-300 font-semibold text-sm hover:text-white transition">
-        Contact Me
-      </a>
+    <div class="relative shrink-0">
+      <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-sky-500 to-indigo-500 opacity-30 blur-lg"></div>
+      <img 
+        src="profile.jpg" 
+        alt="Deepak Kumar" 
+        class="relative w-48 h-56 sm:w-56 sm:h-64 md:w-64 md:h-72 object-cover object-top rounded-2xl border-2 border-slate-800 shadow-2xl"
+        onerror="this.src='https://ui-avatars.com/api/?name=Deepak+Kumar&background=0284c7&color=fff&size=256'"
+      />
     </div>
   </section>
 
   <!-- Skills Section -->
   <section id="skills" class="max-w-6xl mx-auto px-6 py-20 border-b border-slate-900">
-    <h2 class="text-xs font-semibold text-sky-400 uppercase tracking-widest mb-2">Capabilities</h2>
-    <p class="text-2xl font-bold text-white mb-10">Technical Skillset</p>
-    
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- Group 1 -->
-      <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800/80">
-        <h3 class="text-base font-semibold text-white mb-3">Languages & Scripting</h3>
-        <p class="text-xs text-slate-400 mb-4">Core development and business logic scripts</p>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">SQL (Data Architecture)</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">JavaScript</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">AMPScript</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">SSJS</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">HTML5 / CSS3</span>
-        </div>
-      </div>
+    <h2 class="text-xs font-semibold text-sky-400 uppercase tracking-widest mb-2">Technical Proficiency</h2>
+    <p class="text-2xl font-bold text-white mb-10">Skills & Tech Stack</p>
 
-      <!-- Group 2 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- SFMC Core Tools -->
       <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800/80">
-        <h3 class="text-base font-semibold text-white mb-3">Core Platforms & Tools</h3>
-        <p class="text-xs text-slate-400 mb-4">System architecture and lifecycle automation</p>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Salesforce Marketing Cloud</span>
+        <h3 class="text-base font-semibold text-white mb-3">SFMC Core Tools</h3>
+        <p class="text-xs text-slate-400 mb-4">Enterprise platform lifecycle modules</p>
+        <div class="flex flex-wrap gap-1.5">
           <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Automation Studio</span>
           <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Journey Builder</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Contact Builder</span>
           <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Email Studio</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Contact Builder</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Content Builder</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">CloudPages</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Mobile Studio</span>
         </div>
       </div>
 
-      <!-- Group 3 -->
+      <!-- Development & Logic -->
       <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800/80">
-        <h3 class="text-base font-semibold text-white mb-3">Integration & Workflow</h3>
-        <p class="text-xs text-slate-400 mb-4">Data pipelines and infrastructure tooling</p>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">REST / SOAP APIs</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Git & GitHub</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">VS Code</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">ETL / Data Sync</span>
-          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Postman</span>
+        <h3 class="text-base font-semibold text-white mb-3">Development Languages</h3>
+        <p class="text-xs text-slate-400 mb-4">Dynamic logic & query processing</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">AMPScript (Dynamic Content)</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">SQL (T-SQL & Query Studio)</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">SSJS (Core & Platform)</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">HTML5 / CSS3</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Data Modeling & Integrations -->
+      <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800/80">
+        <h3 class="text-base font-semibold text-white mb-3">Data Architecture</h3>
+        <p class="text-xs text-slate-400 mb-4">Schema design & API integrations</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">System Data Views</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Relational Data Extensions</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">REST & SOAP APIs</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">SFTP / ETL Ingestion</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Custom Preference Centers</span>
+        </div>
+      </div>
+
+      <!-- QA, Deliverability & Analytics -->
+      <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800/80">
+        <h3 class="text-base font-semibold text-white mb-3">Tools & Hygiene</h3>
+        <p class="text-xs text-slate-400 mb-4">Testing, reporting, and tracking</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Query Studio</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Litmus</span>
+          <span class="px-2.5 py-1 text-slate-300 text-xs rounded bg-slate-800">Email on Acid</span>
+          <span class="px-2.5 py-1 text-slate-300 text-xs rounded bg-slate-800">Tableau</span>
+          <span class="px-2.5 py-1 text-slate-300 text-xs rounded bg-slate-800">Deliverability Hygiene</span>
+          <span class="px-2.5 py-1 text-slate-300 text-xs rounded bg-slate-800">Jira</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Featured Projects -->
+  <!-- Work Experience Timeline -->
+  <section id="experience" class="max-w-6xl mx-auto px-6 py-20 border-b border-slate-900">
+    <h2 class="text-xs font-semibold text-sky-400 uppercase tracking-widest mb-2">Track Record</h2>
+    <p class="text-2xl font-bold text-white mb-10">Professional Experience</p>
+
+    <div class="relative border-l border-slate-800 ml-4 pl-6 space-y-12">
+      <!-- Role 1 -->
+      <div class="relative">
+        <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-sky-400 ring-4 ring-slate-950"></span>
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+          <h3 class="text-lg font-bold text-white">Salesforce Marketing Cloud Developer</h3>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-sky-950/70 text-sky-400 border border-sky-800/40">
+            April 2024 – Sept 2025
+          </span>
+        </div>
+        <p class="text-sm font-medium text-slate-300 mb-3">OPK E Services PVT Ltd.</p>
+        <ul class="list-disc list-outside text-sm text-slate-400 space-y-2 ml-4">
+          <li>Architected end-to-end data workflows in Automation Studio using SQL Queries, File Transfers, and Data Views (_Sent, _Open, _Click) for segmentation and delta data processing.</li>
+          <li>Developed dynamic AMPScript (Lookup, LookupRows) to render personalized localized messaging and compute subscriber milestone logic at runtime.</li>
+          <li>Built SSJS script activities and REST API integrations (HTTP.Get / HTTP.Post) to fetch real-time third-party data into Data Extensions.</li>
+          <li>Designed multi-step customer journeys with Decision Splits, API Events, and conversion Goal criteria in Journey Builder.</li>
+          <li>Maintained Contact Builder data extension schemas, primary key structures, and subscriber deliverability hygiene.</li>
+        </ul>
+      </div>
+
+      <!-- Role 2 -->
+      <div class="relative">
+        <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-600 ring-4 ring-slate-950"></span>
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+          <h3 class="text-lg font-bold text-white">Senior Email Marketing Specialist</h3>
+          <span class="text-xs font-mono px-2.5 py-1 rounded bg-slate-900 text-slate-400 border border-slate-800">
+            Oct 2019 – March 2024
+          </span>
+        </div>
+        <p class="text-sm font-medium text-slate-300 mb-3">OPK E Services PVT Ltd.</p>
+        <ul class="list-disc list-outside text-sm text-slate-400 space-y-2 ml-4">
+          <li>Managed high-volume triggered email campaigns and dynamic content blocks within Content Builder.</li>
+          <li>Engineered and tested responsive HTML5/CSS3 templates for cross-client rendering consistency using Litmus and Email on Acid.</li>
+          <li>Monitored daily data flows, audience hygiene, and deliverability metrics (Open Rates, Bounce Rates, Unsubscribe ratios).</li>
+          <li>Analyzed template performance and campaign ROI metrics using Tableau reporting.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Technical Projects -->
   <section id="projects" class="max-w-6xl mx-auto px-6 py-20 border-b border-slate-900">
-    <h2 class="text-xs font-semibold text-sky-400 uppercase tracking-widest mb-2">Featured Work</h2>
+    <h2 class="text-xs font-semibold text-sky-400 uppercase tracking-widest mb-2">Portfolio Projects</h2>
     <p class="text-2xl font-bold text-white mb-10">Production Implementations</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -120,21 +200,21 @@
       <div class="p-8 rounded-xl bg-slate-900/40 border border-slate-800/90 hover:border-slate-700 transition flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
-            <span class="text-xs font-mono text-sky-400 font-medium">Architecture / Automation</span>
-            <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-950 text-emerald-400 border border-emerald-800/60">High Impact</span>
+            <span class="text-xs font-mono text-sky-400 font-medium">ETL Pipeline & Data Views</span>
+            <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-950 text-emerald-400 border border-emerald-800/60">Automation</span>
           </div>
-          <h3 class="text-lg font-bold text-white mb-2">Enterprise Multi-Stage Data Ingestion Pipeline</h3>
+          <h3 class="text-lg font-bold text-white mb-2">Automated Audience Delta Segmentation Pipeline</h3>
           <p class="text-sm text-slate-400 leading-relaxed mb-6">
-            Engineered an automated query-based data processing sequence to clean, deduplicate, and segment millions of subscriber records daily across complex relational data schemas.
+            Engineered multi-step SQL queries joined with system data views (_Sent, _Open, _Click) inside Automation Studio to calculate engagement metrics and automatically update target segments.
           </p>
           <div class="flex flex-wrap gap-1.5 mb-6">
-            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">SQL</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">T-SQL</span>
             <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Automation Studio</span>
-            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Contact Builder</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Data Views</span>
           </div>
         </div>
         <div class="pt-4 border-t border-slate-800/60 text-xs text-slate-400">
-          <strong class="text-slate-200">Result:</strong> Eliminated manual sync bottlenecks and reduced execution latency by 35%.
+          <strong class="text-slate-200">Impact:</strong> Automated daily delta segmentations for high-volume subscriber databases without manual query execution.
         </div>
       </div>
 
@@ -142,22 +222,82 @@
       <div class="p-8 rounded-xl bg-slate-900/40 border border-slate-800/90 hover:border-slate-700 transition flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between mb-4">
-            <span class="text-xs font-mono text-sky-400 font-medium">Scripting / Personalization</span>
-            <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-sky-950 text-sky-400 border border-sky-800/60">Production</span>
+            <span class="text-xs font-mono text-sky-400 font-medium">SSJS & REST Integration</span>
+            <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-sky-950 text-sky-400 border border-sky-800/60">API Scripting</span>
           </div>
-          <h3 class="text-lg font-bold text-white mb-2">Dynamic Multi-Tier Personalization Engine</h3>
+          <h3 class="text-lg font-bold text-white mb-2">SSJS Real-Time Payload & Data Extension Sync</h3>
           <p class="text-sm text-slate-400 leading-relaxed mb-6">
-            Built modular AMPScript and SSJS rendering components that evaluate user behavior in real-time, fetching relational catalog records without degrading send throughput.
+            Constructed server-side JavaScript scripts consuming REST endpoints using HTTP methods, parsing JSON payloads to update relational Data Extensions asynchronously.
           </p>
           <div class="flex flex-wrap gap-1.5 mb-6">
-            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">AMPScript</span>
-            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">SSJS</span>
-            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">JSON / API</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">SSJS Core/Platform</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">REST APIs</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Contact Builder</span>
           </div>
         </div>
         <div class="pt-4 border-t border-slate-800/60 text-xs text-slate-400">
-          <strong class="text-slate-200">Result:</strong> Replaced 14 static templates with 1 programmatic template structure.
+          <strong class="text-slate-200">Impact:</strong> Synchronized external transactional data directly into SFMC without external middleware dependencies.
         </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="p-8 rounded-xl bg-slate-900/40 border border-slate-800/90 hover:border-slate-700 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono text-sky-400 font-medium">Lifecycle Orchestration</span>
+            <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-indigo-950 text-indigo-400 border border-indigo-800/60">Journey Builder</span>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Omni-Channel Customer Onboarding Journey</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-6">
+            Configured dynamic customer lifecycle journeys utilizing API Event Entry Sources, Decision Splits based on contact attributes, and engagement goals.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Journey Builder</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">API Events</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Contact Builder</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-slate-800/60 text-xs text-slate-400">
+          <strong class="text-slate-200">Impact:</strong> Increased onboarding conversion rates through timely automated re-engagement triggers.
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="p-8 rounded-xl bg-slate-900/40 border border-slate-800/90 hover:border-slate-700 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono text-sky-400 font-medium">AMPScript & Template Architecture</span>
+            <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-950 text-amber-400 border border-amber-800/60">Personalization</span>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Multi-Tier Runtime Personalization Engine</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-6">
+            Created modular AMPScript email templates leveraging LookupRows across multiple relational Data Extensions to serve customized product and account data per user.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">AMPScript</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">HTML5/CSS3</span>
+            <span class="text-[11px] font-mono text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded">Litmus</span>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-slate-800/60 text-xs text-slate-400">
+          <strong class="text-slate-200">Impact:</strong> 100% template modularity, reducing campaign setup turnaround time from days to hours.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16 border-b border-slate-900">
+    <h2 class="text-xs font-semibold text-sky-400 uppercase tracking-widest mb-2">Academic Background</h2>
+    <p class="text-2xl font-bold text-white mb-6">Education</p>
+    <div class="p-6 rounded-xl bg-slate-900/40 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div>
+        <h3 class="text-base font-bold text-white">Bachelor of Technology (B.Tech) - Computer Science</h3>
+        <p class="text-sm text-slate-400">Punjab Technical University</p>
+      </div>
+      <div class="text-left sm:text-right">
+        <span class="inline-block px-3 py-1 rounded bg-slate-800 text-xs font-mono text-sky-400">Graduated: 2021</span>
+        <p class="text-xs text-slate-400 mt-1">CGPA: 7.0</p>
       </div>
     </div>
   </section>
@@ -166,23 +306,27 @@
   <section id="contact" class="max-w-6xl mx-auto px-6 py-20">
     <div class="p-8 md:p-12 rounded-2xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
       <div>
-        <h2 class="text-2xl font-bold text-white mb-2">Let's connect</h2>
-        <p class="text-sm text-slate-400 max-w-md">Open to technical roles, freelance automation development, and architectural discussions.</p>
+        <h2 class="text-2xl font-bold text-white mb-2">Let's discuss opportunities</h2>
+        <p class="text-sm text-slate-400 max-w-md">Open to Salesforce Marketing Cloud Developer roles, architectural consulting, and technical collaborations.</p>
+        <div class="mt-4 flex flex-col gap-1.5 text-xs text-slate-400 font-mono">
+          <div>Email: <a href="mailto:dkumar78657@gmail.com" class="text-sky-400 hover:underline">dkumar78657@gmail.com</a></div>
+          <div>Phone: <a href="tel:+918360961217" class="text-sky-400 hover:underline">+91-8360961217</a></div>
+        </div>
       </div>
       <div class="flex flex-wrap gap-4">
-        <a href="mailto:your-email@example.com" class="px-5 py-2.5 rounded-lg bg-sky-500 text-slate-950 font-semibold text-sm hover:bg-sky-400 transition">
-          Send Email
+        <a href="mailto:dkumar78657@gmail.com" class="px-5 py-2.5 rounded-lg bg-sky-500 text-slate-950 font-semibold text-sm hover:bg-sky-400 transition">
+          Email Me
         </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-700 bg-slate-800/60 text-slate-200 font-semibold text-sm hover:text-white hover:border-slate-600 transition">
+        <a href="https://linkedin.com/in/deeplearner00101" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-700 bg-slate-800/60 text-slate-200 font-semibold text-sm hover:text-white hover:border-slate-600 transition">
           LinkedIn
         </a>
-        <a href="https://github.com/yourusername" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-700 bg-slate-800/60 text-slate-200 font-semibold text-sm hover:text-white hover:border-slate-600 transition">
+        <a href="https://github.com/DeeepLearner" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-700 bg-slate-800/60 text-slate-200 font-semibold text-sm hover:text-white hover:border-slate-600 transition">
           GitHub
         </a>
       </div>
     </div>
     <footer class="mt-16 text-center text-xs text-slate-600">
-      &copy; 2026. Built & hosted with GitHub Pages.
+      &copy; 2026 Deepak Kumar. Built & hosted on GitHub Pages.
     </footer>
   </section>
 
